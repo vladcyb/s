@@ -160,3 +160,5 @@ const onSubmit = () => {
     ```js
     const rmTaskIndex = state.findIndex((el) => el.id === action.payload);
     ```
+24. https://github.com/surfstudio/frontend-interview-test_todo/blob/0f34efeac13406ca6ebdba36ef2ed6d96ea2e504/src/features/tasksSlice.ts#L64  
+    Здесь логичнее использовать forEach
