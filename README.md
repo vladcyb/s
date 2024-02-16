@@ -88,7 +88,7 @@ army.forEach((item) => {
 4. Не создавать модалку в каждом элементе списка.
 5. Использовать clsx или подобную библиотеку для динамических CSS-классов.
 6. Выносить модалку за корневой элемент при помощи портала.
-7. https://github.com/surfstudio/frontend-interview-test_todo/blob/0f34efeac13406ca6ebdba36ef2ed6d96ea2e504/src/Modal/ModalCreateItem.tsx#L66.  
+7. https://github.com/surfstudio/frontend-interview-test_todo/blob/0f34efeac13406ca6ebdba36ef2ed6d96ea2e504/src/Modal/ModalCreateItem.tsx#L66  
    Нечитаемый код. Вынести в функцию. Кроме того, здесь баг.
 
 
@@ -143,14 +143,13 @@ const onSubmit = () => {
 14. Лучше называть редьюсеры в виде **add**, **update**, **remove** внутри слайсов, а экспортировать в виде **addCategory**, **updateCategory**, **removeCategory** и т. д. То есть использовать глаголы настоящего времени и учитывать контекст для наименований.
 15. Если перейти на несуществующую страницу, то можно создавать задачу, но список при этом останется пуст. Это вводит в заблуждение. Либо делать редирект на страницу задач, либо не отображать хедер на несуществующей странице.
 16. Тесты не должны быть в src.
-17. https://github.com/surfstudio/frontend-interview-test_todo/blob/0f34efeac13406ca6ebdba36ef2ed6d96ea2e504/src/Lists/ListItem.tsx#L22
+17. https://github.com/surfstudio/frontend-interview-test_todo/blob/0f34efeac13406ca6ebdba36ef2ed6d96ea2e504/src/Lists/ListItem.tsx#L22  
     Не объявлять переменные через запятую, использовать **const**, где только можно вместо **let**.
-18. [https://github.com/surfstudio/frontend-interview-test_todo/blob/0f34efeac13406ca6ebdba36ef2ed6d96ea2e504/src/Lists/ListItem.tsx#L31](https://github.com/surfstudio/frontend-interview-test_todo/blob/0f34efeac13406ca6ebdba36ef2ed6d96ea2e504/src/Lists/ListItem.tsx#L30)
+18. [https://github.com/surfstudio/frontend-interview-test_todo/blob/0f34efeac13406ca6ebdba36ef2ed6d96ea2e504/src/Lists/ListItem.tsx#L31](https://github.com/surfstudio/frontend-interview-test_todo/blob/0f34efeac13406ca6ebdba36ef2ed6d96ea2e504/src/Lists/ListItem.tsx#L30)  
     Стоит создавать менее запутанные наименования классов.
-19. https://github.com/surfstudio/frontend-interview-test_todo/blob/0f34efeac13406ca6ebdba36ef2ed6d96ea2e504/src/App.css#L6
+19. https://github.com/surfstudio/frontend-interview-test_todo/blob/0f34efeac13406ca6ebdba36ef2ed6d96ea2e504/src/App.css#L6  
     Описывать CSS правила в отдельных файлах для каждого компонента и подгружать в каждом компоненте свой CSS.
-20. https://github.com/surfstudio/frontend-interview-test_todo/blob/0f34efeac13406ca6ebdba36ef2ed6d96ea2e504/src/Modal/Modal.css#L16
+20. https://github.com/surfstudio/frontend-interview-test_todo/blob/0f34efeac13406ca6ebdba36ef2ed6d96ea2e504/src/Modal/Modal.css#L16  
     Здесь и еще во многих местах применяется комбинация селекторов. Это не по БЭМ.
-21. https://github.com/surfstudio/frontend-interview-test_todo/blob/0f34efeac13406ca6ebdba36ef2ed6d96ea2e504/src/Modal/ModalRow.tsx#L18
+21. https://github.com/surfstudio/frontend-interview-test_todo/blob/0f34efeac13406ca6ebdba36ef2ed6d96ea2e504/src/Modal/ModalRow.tsx#L18  
     Это обычный элемент, но зачем-то применяется синтаксис как для модификатора.
-    
