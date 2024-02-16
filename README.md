@@ -153,3 +153,5 @@ const onSubmit = () => {
     Здесь и еще во многих местах применяется комбинация селекторов. Это не по БЭМ.
 21. https://github.com/surfstudio/frontend-interview-test_todo/blob/0f34efeac13406ca6ebdba36ef2ed6d96ea2e504/src/Modal/ModalRow.tsx#L18  
     Это обычный элемент, но зачем-то применяется синтаксис как для модификатора.
+22. label перекрывает текст в текстовых полях. Данную проблему можно решить при помощи fieldset.  
+    ![image](https://github.com/vladcyb/s/assets/7864131/416ed365-f223-456c-b049-d66397baffa8)
