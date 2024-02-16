@@ -149,3 +149,8 @@ const onSubmit = () => {
     Стоит создавать менее запутанные наименования классов.
 19. https://github.com/surfstudio/frontend-interview-test_todo/blob/0f34efeac13406ca6ebdba36ef2ed6d96ea2e504/src/App.css#L6
     Описывать CSS правила в отдельных файлах для каждого компонента и подгружать в каждом компоненте свой CSS.
+20. https://github.com/surfstudio/frontend-interview-test_todo/blob/0f34efeac13406ca6ebdba36ef2ed6d96ea2e504/src/Modal/Modal.css#L16
+    Здесь и еще во многих местах применяется комбинация селекторов. Это не по БЭМ.
+21. https://github.com/surfstudio/frontend-interview-test_todo/blob/0f34efeac13406ca6ebdba36ef2ed6d96ea2e504/src/Modal/ModalRow.tsx#L18
+    Это обычный элемент, но зачем-то применяется синтаксис как для модификатора.
+    
