@@ -147,3 +147,5 @@ const onSubmit = () => {
     Не объявлять переменные через запятую, использовать **const**, где только можно вместо **let**.
 18. [https://github.com/surfstudio/frontend-interview-test_todo/blob/0f34efeac13406ca6ebdba36ef2ed6d96ea2e504/src/Lists/ListItem.tsx#L31](https://github.com/surfstudio/frontend-interview-test_todo/blob/0f34efeac13406ca6ebdba36ef2ed6d96ea2e504/src/Lists/ListItem.tsx#L30)
     Стоит создавать менее запутанные наименования классов.
+19. https://github.com/surfstudio/frontend-interview-test_todo/blob/0f34efeac13406ca6ebdba36ef2ed6d96ea2e504/src/App.css#L6
+    Описывать CSS правила в отдельных файлах для каждого компонента и подгружать в каждом компоненте свой CSS.
