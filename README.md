@@ -155,3 +155,8 @@ const onSubmit = () => {
     Это обычный элемент, но зачем-то применяется синтаксис как для модификатора.
 22. label перекрывает текст в текстовых полях. Данную проблему можно решить при помощи fieldset.  
     ![image](https://github.com/vladcyb/s/assets/7864131/416ed365-f223-456c-b049-d66397baffa8)
+23. https://github.com/surfstudio/frontend-interview-test_todo/blob/0f34efeac13406ca6ebdba36ef2ed6d96ea2e504/src/features/tasksSlice.ts#L57  
+    Лучше не выносить функцию в переменную **rm**. Аргументы **i** и **arr** не нужны. Не объявлять переменные через запятую.
+    ```js
+    const rmTaskIndex = state.findIndex((el) => el.id === action.payload);
+    ```
