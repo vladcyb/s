@@ -163,4 +163,5 @@ const onSubmit = () => {
     ```
 25. https://github.com/surfstudio/frontend-interview-test_todo/blob/0f34efeac13406ca6ebdba36ef2ed6d96ea2e504/src/features/tasksSlice.ts#L64  
     Здесь логичнее использовать forEach  
-26. В модалке не нужно использовать теги **header** и **footer**  
+26. В модалке не нужно использовать теги **header** и **footer**
+27. Стоит продумать структуру проекта. Как минимальный вариант создать папку components и туда поместить все компоненты. Также для каждого компонента лучше создавать папку, в которой находятся файлы ComponentName.tsx, ComponentName.css и index.ts.
