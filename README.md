@@ -145,6 +145,5 @@ const onSubmit = () => {
 16. Тесты не должны быть в src.
 17. https://github.com/surfstudio/frontend-interview-test_todo/blob/0f34efeac13406ca6ebdba36ef2ed6d96ea2e504/src/Lists/ListItem.tsx#L22
     Не объявлять переменные через запятую, использовать **const**, где только можно вместо **let**.
-18. https://github.com/surfstudio/frontend-interview-test_todo/blob/0f34efeac13406ca6ebdba36ef2ed6d96ea2e504/src/Lists/ListItem.tsx#L31
-    Определиться: использовать БЭМ или не БЭМ, а что-то другое. **list-item-col1**, **list-item-col1-row1** и подобные классы в репозитории используются не по правилам БЭМ.
-
+18. [https://github.com/surfstudio/frontend-interview-test_todo/blob/0f34efeac13406ca6ebdba36ef2ed6d96ea2e504/src/Lists/ListItem.tsx#L31](https://github.com/surfstudio/frontend-interview-test_todo/blob/0f34efeac13406ca6ebdba36ef2ed6d96ea2e504/src/Lists/ListItem.tsx#L30)
+    Стоит создавать менее запутанные наименования классов.
